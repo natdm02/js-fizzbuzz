@@ -1,5 +1,29 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+body{
+  background-color: black;
 }
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  color: black;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.box.violet{
+  background-color: violet;
+}
+
+.box.green{
+  background-color: lightgreen;
+}
+
+h1{
+  font-size: 5rem;
+}
+
